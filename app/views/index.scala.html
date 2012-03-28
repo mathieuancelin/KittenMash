@@ -1,0 +1,29 @@
+@(cat1: Cat, cat2: Cat)
+
+@main("Kittens") {
+    
+    <div class="content">
+        <div class="row">
+            <div class="row">
+                <div class="span12">
+                    <div class="row">
+                        <div class="span4">
+                            <a href="@routes.Application.pickACat(cat1.id, 1)">
+                                <img src="@cat1.url" width="225px" height="350px">
+                            </a>
+                        </div>
+                        <div class="span1 half">
+                            <h1>or</h1>
+                        </div>
+                        <div class="span4">
+                            <a href="@routes.Application.pickACat(cat2.id, 2)">
+                                <img src="@cat2.url" width="225px" height="350px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>                           
+        </div>
+    </div>
+    
+}

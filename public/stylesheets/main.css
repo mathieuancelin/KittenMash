@@ -1,0 +1,29 @@
+html, body {
+    background-color: #eee;
+}
+body {
+    padding-top: 60px;
+    width: 520px;
+}
+.half {
+    padding-top: 180px;
+}
+.container > footer p {
+    text-align: center; 
+}
+.container {
+    width: 520px;
+}
+
+.content {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+footer {
+	padding-left:50px;
+}
+.rank {
+    width: 225px;
+    text-align: center;
+}
